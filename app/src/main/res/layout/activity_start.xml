@@ -5,11 +5,11 @@
     android:id="@+id/ll"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#4374E7DA"
+
     android:gravity="center"
     android:orientation="vertical"
     android:padding="10dp"
-    tools:context=".activity.MainActivity">
+    tools:context=".activity.start.StartActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -72,7 +72,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
-            android:id="@+id/ChoixSortie"
+            android:id="@+id/ListeSortie"
             android:layout_below="@+id/CRSortie"
             android:layout_width="match_parent"
             android:layout_height="60dp"
